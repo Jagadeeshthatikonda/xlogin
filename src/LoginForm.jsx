@@ -8,7 +8,7 @@ const LoginForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (username === 'user' && password === 'password') {
-      setStatusMessage('Welcome, admin!');
+      setStatusMessage('Welcome, user');
     } else {
       setStatusMessage('Invalid username or password');
     }
